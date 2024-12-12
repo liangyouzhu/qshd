@@ -4,10 +4,10 @@ import setupPlugins from "@/plugins";
 //@ts-ignore
 import VueGridLayout from "vue-grid-layout";
 // 使用 import.meta.glob 匹配 components 目录下的所有 .vue 文件
-const components = import.meta.glob("./components/**/*.vue");
+const components = import.meta.glob("./components/CmsGurp/*.vue");
 // 创建一个函数来动态注册所有全局组件
 const newArr: any = [];
-async function registerGlobalComponents(app) {
+async function registerGlobalComponents(app: any) {
   let componentName = "";
   for (const [filePath, module] of Object.entries(components)) {
     // 提取组件名称，这里假设文件名是 PascalCase 的

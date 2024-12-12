@@ -65,6 +65,7 @@
     "sortablejs": "^1.15.6",
     "vue": "^3.5.13",
     "vue-grid-layout": "3.0.0-beta1",
+    "vue-grid-layout-v3": "^3.1.2",
     "vue-i18n": "9.9.1",
     "vue-router": "^4.5.0"
   },

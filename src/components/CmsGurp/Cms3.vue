@@ -1,7 +1,15 @@
-<script setup lang="ts"></script>
-
 <template>
-  <div>cms3</div>
+  <div class="box">Hallow Words3</div>
 </template>
 
-<style lang="scss" scoped></style>
+<script setup name="MyGlobalComponent"></script>
+
+<style lang="scss" scoped>
+.box {
+  width: 100%;
+  background-color: rgb(250, 170, 20);
+  text-align: center;
+  line-height: 50px;
+  height: 100%;
+}
+</style>
